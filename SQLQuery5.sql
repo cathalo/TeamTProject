@@ -1,0 +1,1 @@
+﻿SELECT FirstName, Score FROM AspNetUsers ORDER BY Score DESC;

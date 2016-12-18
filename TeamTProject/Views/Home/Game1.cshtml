@@ -1,0 +1,34 @@
+﻿@{ ViewBag.Title = "Pro Ball"; }
+
+
+<link href="~/Content/GameHome.css" rel="stylesheet" />
+<h1>Games Centre Home of ProBall</h1>
+
+<div style="padding:0 15px;">
+    <div class="row">
+
+        <div class="col-xs-8 col-sm-4">
+            @Html.ActionLink("Button Name", "UnityGame1", null, new { @class = "img-thumbnail img1" })
+            <!--<img class="img-thumbnail img1" alt="photo1">-->
+        </div>
+
+        <div class="col-xs-4 col-sm-8">
+
+            <div class="row">
+                <div class="col-sm-6">
+                     @Html.ActionLink("Button Name", "Index", null, new { @class = "img-thumbnail img2"})
+                  <!--  <img class="img-thumbnail img2" alt="photo2">-->
+                </div>
+
+                <div class="col-sm-6">
+                    @Html.ActionLink("Button Name", "UnityGame2", null, new { @class = "img-thumbnail img3" })
+                    <!--<img class="img-thumbnail img3" alt="photo3">-->
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<p class="text-center cr"><strong>Pick a Game to play</strong></p>

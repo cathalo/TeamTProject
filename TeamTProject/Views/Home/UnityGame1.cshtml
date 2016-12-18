@@ -1,0 +1,28 @@
+﻿@{
+    Layout = null;
+    ViewBag.Title = "Pro Ball";
+}
+<html>
+<head>
+    <title></title>
+   Scripts.Render("~/bundles/modernizr");
+
+</head>
+
+<body>
+   <!-- <link href="~/Content/GameHome.css" rel="stylesheet" />
+
+    <div>
+       <h1>Leaderboard</h1> -->
+       <div> 
+         @{   if (Session != null)
+             {
+                 Response.Redirect("https://lukewagner.github.io/AngryBotsPacked/");
+             }
+         }
+
+        </div>
+    </body>
+</html>
+
+
